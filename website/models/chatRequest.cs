@@ -3,6 +3,6 @@
     public class chatRequest
     {
         public string? model { get; set; }
-        public List<message>? messages { get; set; }
+        public message[]? messages { get; set; }
     }
 }
